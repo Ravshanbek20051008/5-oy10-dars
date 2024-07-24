@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Ob havo malumoti</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather</h1>
+      <form class="weatherform" id="weatherform">
+        <label id="cityname" for="city">
+          Shaxar nomini inglizchada kiriting</label
+        ><br />
+        <input
+          type="text"
+          name="city"
+          id="cityinput"
+          placeholder="Shaxar nomi..."
+        />
+      </form>
+      <div id="card">
+        <div id="icon-card">
+          <img src="" alt="" id="card-icon" />
+        </div>
+        <div class="details" id="details">
+          <h3>Shaxar nomi</h3>
+          <p>Coulds</p>
+          <div class="harorat">
+            <span>TEMP</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/function.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
